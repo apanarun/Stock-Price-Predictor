@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>header}}
+    <link rel="stylesheet" href="./css/home.css">   
+</head>
+<body>  
+
+    {{>navbar}}
+
+    <div class="companydetails">    
+        <div class="company1" onclick="window.location='companydetails.html'">
+            <img class ="clogo"src="https://www.designmantic.com/logo-images/3439.png?company=Company+Name&slogan=&verify=1" alt="">
+            <p class="c1name">Company 1</p>
+            <p class="prev">Previous Stock : <span id="c1p">5.22</span></p>
+            <p class="curr">Current Stock : <span id="c1c">6.28</span></p>
+        </div>
+        <div class="company1" onclick="window.location='companydetails.html'">
+            <img class ="clogo"src="https://www.designmantic.com/logo-images/3439.png?company=Company+Name&slogan=&verify=1" alt="">
+            <p class="c1name">Company 2</p>
+            <p class="prev">Previous Stock : <span id="c2p">111.22</span></p>
+            <p class="curr">Current Stock : <span id="c2c" >61.28</span></p>
+        </div>
+        <div class="company1" onclick="window.location='companydetails.html'">
+            <img class ="clogo"src="https://www.designmantic.com/logo-images/3439.png?company=Company+Name&slogan=&verify=1" alt="">
+            <p class="c1name">Company 3</p>
+            <p class="prev">Previous Stock : <span id="c3p">5.22</span></p>
+            <p class="curr">Current Stock : <span id="c3c">6.28</span></p>
+        </div>
+    </div>
+
+    {{>footer}}
+</body>
+
+<script src="home.js"></script>
+
+</html>
