@@ -42,6 +42,18 @@ app.get('', (req, res) => {
     })
 })
 
+app.get('/companydetails', (req, res) => {
+    if(!req.query.symbol){
+        return res.send({
+            error: 'You must provide a symbol'
+        })
+    }
+
+    res.render('companydetails', {
+        symbol: req.query.symbol
+    })
+})
+
 app.listen(port, () => {
     console.log("Server is up on port " + port)
 })

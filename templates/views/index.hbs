@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    {{>header}}
-    <link rel="stylesheet" href="./css/home.css">   
+    {{>header}}  
 </head>
 <body>  
 
     {{>navbar}}
 
     <div class="companydetails">
-        <div class="company1" onclick="window.location='companydetails.html'">
+        <div class="company1" onclick="window.location='/companydetails?symbol=AAPL'">
             <img class ="clogo"src="https://www.designmantic.com/logo-images/3439.png?company=Company+Name&slogan=&verify=1" alt="">
             <p class="c1name">Apple</p>
             {{!-- <p class="prev" id="prevaapl">Previous Stock : <span id="c1p"></span></p> --}}
             <p class="curr" id="AAPL">Current Stock : <span id="c1c">Loading.</span></p>
         </div>
-        <div class="company1" onclick="window.location='companydetails.html'">
+        <div class="company1" onclick="window.location='/companydetails?symbol=AMZN'">
             <img class ="clogo"src="https://www.designmantic.com/logo-images/3439.png?company=Company+Name&slogan=&verify=1" alt="">
             <p class="c1name">Amazon</p>
             {{!-- <p class="prev">Previous Stock : <span id="c2p">111.22</span></p> --}}
             <p class="curr" id="AMZN">Current Stock : <span id="c2c" >Loading..</span></p>
         </div>
-        <div class="company1" onclick="window.location='companydetails.html'">
+        <div class="company1" onclick="window.location='/companydetails?symbol=MSFT'">
             <img class ="clogo"src="https://www.designmantic.com/logo-images/3439.png?company=Company+Name&slogan=&verify=1" alt="">
             <p class="c1name">Microsoft</p>
             {{!-- <p class="prev">Previous Stock : <span id="c3p">5.22</span></p> --}}
