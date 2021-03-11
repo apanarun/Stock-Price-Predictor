@@ -8,30 +8,31 @@
 
     {{>navbar}}
 
-    <div class="companydetails">    
+    <div class="companydetails">
         <div class="company1" onclick="window.location='companydetails.html'">
             <img class ="clogo"src="https://www.designmantic.com/logo-images/3439.png?company=Company+Name&slogan=&verify=1" alt="">
-            <p class="c1name">Company 1</p>
-            <p class="prev">Previous Stock : <span id="c1p">5.22</span></p>
-            <p class="curr">Current Stock : <span id="c1c">6.28</span></p>
+            <p class="c1name">Apple</p>
+            {{!-- <p class="prev" id="prevaapl">Previous Stock : <span id="c1p"></span></p> --}}
+            <p class="curr" id="AAPL">Current Stock : <span id="c1c">Loading.</span></p>
         </div>
         <div class="company1" onclick="window.location='companydetails.html'">
             <img class ="clogo"src="https://www.designmantic.com/logo-images/3439.png?company=Company+Name&slogan=&verify=1" alt="">
-            <p class="c1name">Company 2</p>
-            <p class="prev">Previous Stock : <span id="c2p">111.22</span></p>
-            <p class="curr">Current Stock : <span id="c2c" >61.28</span></p>
+            <p class="c1name">Amazon</p>
+            {{!-- <p class="prev">Previous Stock : <span id="c2p">111.22</span></p> --}}
+            <p class="curr" id="AMZN">Current Stock : <span id="c2c" >Loading..</span></p>
         </div>
         <div class="company1" onclick="window.location='companydetails.html'">
             <img class ="clogo"src="https://www.designmantic.com/logo-images/3439.png?company=Company+Name&slogan=&verify=1" alt="">
-            <p class="c1name">Company 3</p>
-            <p class="prev">Previous Stock : <span id="c3p">5.22</span></p>
-            <p class="curr">Current Stock : <span id="c3c">6.28</span></p>
+            <p class="c1name">Microsoft</p>
+            {{!-- <p class="prev">Previous Stock : <span id="c3p">5.22</span></p> --}}
+            <p class="curr" id="MSFT">Current Stock : <span id="c3c">Loading.</span></p>
         </div>
     </div>
 
     {{>footer}}
 </body>
 
-<script src="home.js"></script>
+<script src="./js/home.js"></script>
+<script src="./js/app.js"></script>
 
 </html>
