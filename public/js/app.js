@@ -2,7 +2,7 @@ const stockAAPL = document.querySelector('#AAPL')
 const stockAMZN = document.querySelector('#AMZN')
 const stockMSFT = document.querySelector('#MSFT')
 
-const socket = new WebSocket('wss://ws.finnhub.io?token=c0g00d748v6rp6j6ei0g');
+const socket = new WebSocket('wss://ws.finnhub.io?token=c1dccdv48v6p64724ukg');
 
 // Connection opened -> Subscribe
 socket.addEventListener('open', function (event) {
